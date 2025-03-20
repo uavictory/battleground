@@ -1,0 +1,8 @@
+<h1>Character Types</h1>
+
+<% @character_types.each do |character_type| %>
+  <section class="character-type">
+    <h2><%= character_type.name %></h2>
+    <p><%= character_type.description %></p>
+  </section>
+<% end %>
